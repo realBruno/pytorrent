@@ -30,6 +30,5 @@ def get_path():
     else:
         raise TypeError(f"Takes exactly 1 argument. {len(sys.argv) - 1} given.")
 
-
 file_loc = get_path()
 make_request(file_loc)
